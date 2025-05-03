@@ -8,22 +8,25 @@ import random
 import pickle
 import os
 
-# List all the JSON files in the Training-Data folder
+# --- Initial Setup ---
+
+# This section sets up the files and loads the necessary resources
+#All of your training data is loaded from JSON files in the 'Training-Data' folder
 folder_path = 'Training-Data'
 files = [f for f in os.listdir(folder_path) if f.endswith('.json')]
 print("JSON Files in Training-Data folder:", files)
 
-# Load the necessary files
+# Load the words and lables for the trained model
 with open('words.pkl', 'rb') as f:
-    words = pickle.load(f)
+    words = pickle.load(f) # <-- List of all words that were used for classification
 
 with open('labels.pkl', 'rb') as f:
-    labels = pickle.load(f)  # This is your LabelEncoder object
+    labels = pickle.load(f)  # This is the LabelEncoder object, it maps out the intents to numeric lables
 
-# Initialize the lemmatizer
+# Initialize the lemmatizer, basically makes the words uniform
 lemmatizer = WordNetLemmatizer()
 
-# Loads intents from the files in Training-Data folder
+# This loads all the intents from the JSON files in Training-Data folder
 intents = {"intents": []}
 for filename in files:
     with open(os.path.join(folder_path, filename), "r") as json_data:
@@ -31,6 +34,7 @@ for filename in files:
         intents["intents"].extend(current_data.get("intents", []))
 
 # Load the trained model
+# This model is trained by TensorFlowand can predict intents based on inputs
 model = load_model('chatbot_model.h5')
 
 # Preprocess the input text
@@ -42,7 +46,7 @@ def pre_process_input(text):
 # Get the bag of words for the input
 def bag_of_words(sentence, words):
     bag = [0] * len(words)
-    words_input = preprocess_input(sentence)
+    words_input = preprocess_input(sentence) # Preprocess input
     for w in words_input:
         for i, word in enumerate(words):
             if word == w:
@@ -60,18 +64,18 @@ def predict_intent(text):
 
 # Get the response based on the predicted intent
 def get_response(prediction, label_encoder):  
-    index = np.argmax(prediction)
-    intent = label_encoder.inverse_transform([index])[0] 
+    index = np.argmax(prediction) # Searching for index wth the highest confidence
+    intent = label_encoder.inverse_transform([index])[0] # Convert index to intent
     for intent_data in intents['intents']:
-        if intent_data['tag'] == intent:
+        if intent_data['tag'] == intent: # Pick a random response if the predicted intent matches
             return random.choice(intent_data['responses'])
 
 # Main chatbot function
 def chatbot(input_text):
-    prediction = predict_intent(input_text)
+    prediction = predict_intent(input_text) # Get the model's prediction
     if prediction is None:
-        return "I'm not sure how to answer that."
-    response = get_response(prediction, labels)  
+        return "I'm not sure how to answer that." # If confidence is low, then return the default response
+    response = get_response(prediction, labels)  # Fetch the correseponding response
     return response
 
 # Simple chatbot loop for user interaction
