@@ -80,10 +80,10 @@ def chatbot(input_text):
 
 # Simple chatbot loop for user interaction
 if __name__ == "__main__":
-    print("Chatbot is ready to talk! Type 'exit' to end.")
+    print("Herm is ready to chat! Type 'exit' to end.")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
             break
         else:
-            print(f"Chatbot: {chatbot(user_input)}")
+            print(f"Hermie: {chatbot(user_input)}")
