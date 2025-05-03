@@ -23,7 +23,7 @@ with open('labels.pkl', 'rb') as f:
 # Initialize the lemmatizer
 lemmatizer = WordNetLemmatizer()
 
-# Load intents from the files in Training-Data folder
+# Loads intents from the files in Training-Data folder
 intents = {"intents": []}
 for filename in files:
     with open(os.path.join(folder_path, filename), "r") as json_data:
@@ -34,7 +34,7 @@ for filename in files:
 model = load_model('chatbot_model.h5')
 
 # Preprocess the input text
-def preprocess_input(text):
+def pre_process_input(text):
     words = nltk.word_tokenize(text)
     words = [lemmatizer.lemmatize(w.lower()) for w in words]
     return words
@@ -59,9 +59,9 @@ def predict_intent(text):
     return prediction
 
 # Get the response based on the predicted intent
-def get_response(prediction, label_encoder):  # Updated function
+def get_response(prediction, label_encoder):  
     index = np.argmax(prediction)
-    intent = label_encoder.inverse_transform([index])[0]  # Correct usage
+    intent = label_encoder.inverse_transform([index])[0] 
     for intent_data in intents['intents']:
         if intent_data['tag'] == intent:
             return random.choice(intent_data['responses'])
@@ -71,7 +71,7 @@ def chatbot(input_text):
     prediction = predict_intent(input_text)
     if prediction is None:
         return "I'm not sure how to answer that."
-    response = get_response(prediction, labels)  # Pass 'labels' here
+    response = get_response(prediction, labels)  
     return response
 
 # Simple chatbot loop for user interaction
