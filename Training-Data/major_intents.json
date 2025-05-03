@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "list_of_majors",
+      "patterns": [
+        "What majors do you offer?",
+        "Can I see a list of majors?",
+        "All majors available",
+        "Programs of study",
+        "Undergraduate degrees offered"
+      ],
+      "responses": [
+        "EMU offers a wide range of majors including Nursing, Business, Computer Science, Education, Psychology, and more. You can view the full list at [emu.edu/academics/programs](https://emu.edu/academics/programs).",
+        "Visit the Academics page at EMU for a complete list of majors and programs: [emu.edu/academics/programs](https://emu.edu/academics/programs)."
+      ]
+    },
+    {
+      "tag": "popular_majors",
+      "patterns": [
+        "What are the most popular majors?",
+        "Top programs at EMU?",
+        "Best majors",
+        "What are students mostly studying?",
+        "Popular degrees"
+      ],
+      "responses": [
+        "Some of EMU’s most popular majors include Nursing, Biology, Psychology, Education, and Business Administration.",
+        "Nursing, Business, and Teacher Education are among the top programs at EMU."
+      ]
+    },
+    {
+      "tag": "major_exploration",
+      "patterns": [
+        "I don't know what to major in",
+        "How do I choose a major?",
+        "Undecided major help",
+        "Help me pick a major",
+        "Exploring majors"
+      ],
+      "responses": [
+        "No worries—EMU offers guidance through academic advisors and the Career Services Center to help you explore interests and choose a major that fits your goals.",
+        "If you're undecided, EMU has exploratory pathways and advising to help you discover what you're passionate about. You’ll get support all the way through."
+      ]
+    },
+    {
+      "tag": "change_major",
+      "patterns": [
+        "How do I change my major?",
+        "Switching majors at EMU",
+        "I want to change programs",
+        "Can I switch majors?",
+        "Is it easy to change my major?"
+      ],
+      "responses": [
+        "Yes, you can change your major. Talk to your academic advisor and they’ll help you fill out a change of major form.",
+        "To switch majors, just speak with your current advisor or the department you're switching to. They’ll walk you through the process."
+      ]
+    },
+    {
+      "tag": "double_major_minor",
+      "patterns": [
+        "Can I double major?",
+        "Can I have a minor?",
+        "Adding a second major",
+        "What minors can I take?",
+        "Double majoring at EMU"
+      ],
+      "responses": [
+        "Yes! You can double major or add a minor. It’s a good idea to meet with your academic advisor to plan your course schedule accordingly.",
+        "EMU allows students to double major or choose from a variety of minors. Talk with your advisor to see what fits your goals and timeline."
+      ]
+    },
+    {
+      "tag": "major_requirements",
+      "patterns": [
+        "What are the requirements for the Computer Science major?",
+        "How many credits is the Nursing major?",
+        "What courses are required for Psychology?",
+        "Major curriculum details",
+        "Program requirements"
+      ],
+      "responses": [
+        "Each major has specific course requirements. You can view them by visiting [emu.edu/academics/programs](https://emu.edu/academics/programs) and selecting your major.",
+        "Check the course catalog or academic department page for detailed major requirements. Your advisor can also help with planning."
+      ]
+    }
+  ]
+}

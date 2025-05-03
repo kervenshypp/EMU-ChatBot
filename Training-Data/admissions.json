@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How do I apply?",
+        "Tell me how to start my application",
+        "What's the application process?",
+        "Steps to apply to EMU",
+        "How do I get started with my EMU application?"
+      ],
+      "responses": [
+        "To apply to EMU, visit [emu.edu/apply](https://emu.edu/apply), create an account, and fill out the online application. It’s free and easy to complete!",
+        "Start your EMU application online at [emu.edu/apply](https://emu.edu/apply). You’ll need to provide transcripts and a few details about yourself."
+      ]
+    },
+    {
+      "tag": "application_deadlines",
+      "patterns": [
+        "What’s the application deadline?",
+        "When is the deadline to apply?",
+        "Is there a deadline for EMU applications?",
+        "EMU admission due dates",
+        "Deadlines for applying"
+      ],
+      "responses": [
+        "EMU has rolling admissions, but it's recommended to apply by March 1 for priority scholarship consideration.",
+        "There’s no hard deadline, but applying earlier ensures better access to scholarships and housing."
+      ]
+    },
+    {
+      "tag": "admissions_requirements",
+      "patterns": [
+        "What do I need to get in?",
+        "Admissions requirements",
+        "GPA needed for EMU",
+        "Do I need SAT or ACT?",
+        "EMU entry criteria"
+      ],
+      "responses": [
+        "EMU is test-optional! A strong high school GPA and your transcript are the main factors considered. Learn more at [emu.edu/admissions/requirements](https://emu.edu/admissions/requirements).",
+        "A good academic record and personal character are most important. You can apply without SAT/ACT scores if you prefer."
+      ]
+    },
+    {
+      "tag": "acceptance_rate",
+      "patterns": [
+        "What’s EMU’s acceptance rate?",
+        "Is it hard to get into EMU?",
+        "Chances of getting in",
+        "Admission competitiveness",
+        "Is EMU selective?"
+      ],
+      "responses": [
+        "EMU has an acceptance rate of around 60-70%. We value students who are motivated and ready to make a difference.",
+        "EMU is moderately selective. If you're serious about your education and community, you have a good shot."
+      ]
+    },
+    {
+      "tag": "first_year_vs_transfer",
+      "patterns": [
+        "I'm a transfer student, how do I apply?",
+        "Is the process different for transfers?",
+        "First year vs transfer process",
+        "How do transfer students apply?",
+        "Transfer student admission"
+      ],
+      "responses": [
+        "Transfer students apply using the same online application but must also submit transcripts from all colleges attended. Learn more at [emu.edu/transfer](https://emu.edu/transfer).",
+        "Yes, transfers are welcome! We’ll work with you to make sure your credits transfer smoothly."
+      ]
+    },
+    {
+      "tag": "application_fee",
+      "patterns": [
+        "Do I have to pay to apply?",
+        "Application fee?",
+        "Is there an EMU application cost?",
+        "How much is the application fee?",
+        "Fee to apply to EMU?"
+      ],
+      "responses": [
+        "EMU’s undergraduate application is completely free!",
+        "There’s no cost to apply — the EMU application is free for all students."
+      ]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "How do I check my application status?",
+        "Did EMU receive my application?",
+        "Track my application",
+        "Where can I see my admission decision?",
+        "Check if I got in"
+      ],
+      "responses": [
+        "Log in to your EMU applicant portal to check your status. You’ll get email updates too!",
+        "To view your application progress, visit your EMU application portal or contact the admissions office for help."
+      ]
+    },
+    {
+      "tag": "contact_admissions",
+      "patterns": [
+        "How do I contact admissions?",
+        "Admissions office phone number?",
+        "Can I speak to someone?",
+        "I need to talk to EMU admissions",
+        "Contact the admissions team"
+      ],
+      "responses": [
+        "You can reach EMU Admissions by calling 800-368-2665 or emailing admissions@emu.edu.",
+        "Visit [emu.edu/admissions](https://emu.edu/admissions) to find contact details and connect with an admissions counselor."
+      ]
+    }
+  ]
+}

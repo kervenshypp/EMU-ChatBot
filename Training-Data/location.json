@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "campus_location",
+      "patterns": [
+        "Where is EMU located?",
+        "What city is EMU in?",
+        "EMU address?",
+        "Where can I find EMU?",
+        "What's the location of Eastern Mennonite University?"
+      ],
+      "responses": [
+        "EMU is located in Harrisonburg, Virginia. The full address is 1200 Park Road, Harrisonburg, VA 22802.",
+        "You’ll find EMU in the Shenandoah Valley of Virginia at 1200 Park Rd, Harrisonburg."
+      ]
+    },
+    {
+      "tag": "getting_to_emu",
+      "patterns": [
+        "How do I get to EMU?",
+        "What's the best way to reach EMU?",
+        "Can I drive to EMU?",
+        "Is EMU near an airport?",
+        "How do you get to the campus?"
+      ],
+      "responses": [
+        "You can drive to EMU or fly into Shenandoah Valley Regional Airport (SHD), which is about 25 minutes away. Dulles (IAD) and Charlottesville (CHO) airports are also options.",
+        "Driving is the most common way. Just enter 1200 Park Rd, Harrisonburg, VA into your GPS."
+      ]
+    },
+    {
+      "tag": "campus_tours",
+      "patterns": [
+        "Can I visit the campus?",
+        "Is there a campus tour?",
+        "How do I schedule a visit?",
+        "I want to see the EMU campus",
+        "How do I plan a tour?"
+      ],
+      "responses": [
+        "Yes, EMU offers campus tours! You can schedule a visit at [emu.edu/visit](https://emu.edu/visit).",
+        "Campus visits and tours can be arranged through EMU’s admissions page. Check out available dates and times online."
+      ]
+    },
+    {
+      "tag": "directions_on_campus",
+      "patterns": [
+        "How do I find the library?",
+        "Where is the cafeteria?",
+        "How do I get to the gym?",
+        "Where’s the admissions office?",
+        "Can you give directions on campus?"
+      ],
+      "responses": [
+        "You can use EMU’s campus map to find buildings and offices: [emu.edu/map](https://emu.edu/map).",
+        "The campus map and signage make it easy to navigate. Stop by the welcome desk for help if you're lost!"
+      ]
+    },
+    {
+      "tag": "nearby_places",
+      "patterns": [
+        "What’s around EMU?",
+        "Are there restaurants near campus?",
+        "What's nearby?",
+        "Is there shopping near EMU?",
+        "Are there places to eat close by?"
+      ],
+      "responses": [
+        "EMU is near downtown Harrisonburg with lots of restaurants, coffee shops, and stores just a short drive or walk away.",
+        "You’ll find groceries, cafes, and dining options on Route 42 and in downtown Harrisonburg."
+      ]
+    },
+    {
+      "tag": "parking_info",
+      "patterns": [
+        "Is there parking at EMU?",
+        "Where can I park?",
+        "Do visitors need a parking pass?",
+        "Can I park on campus?",
+        "How does parking work at EMU?"
+      ],
+      "responses": [
+        "Yes, there is parking on campus. Visitors can get a temporary parking pass from the welcome center or admissions office.",
+        "Students, faculty, and staff need a parking permit. Visitors should check in for a guest pass."
+      ]
+    }
+  ]
+}

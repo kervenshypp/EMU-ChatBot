@@ -7,13 +7,22 @@ from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
+import os
 
 # Initialize the lemmatizer and other variables
 lemmatizer = WordNetLemmatizer()
 
-# Load intents file
-with open('intents.json') as json_data:
-    intents = json.load(json_data)
+# List all the JSON files in the Training-Data folder
+folder_path = 'Training-Data'
+files = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+print("JSON Files in Training-Data folder:", files)
+
+# Load intents files
+intents = {"intents": []}
+for filename in files:
+    with open(os.path.join(folder_path, filename), "r") as f:
+        current_data = json.load(f)
+        intents["intents"].extend(current_data.get("intents", []))
 
 # Prepare the data
 words = []
@@ -44,7 +53,7 @@ with open('words.pkl', 'wb') as f:
 with open('classes.pkl', 'wb') as f:
     pickle.dump(classes, f)
 
-# Create the training set
+# Create the Training-Data set
 training_sentences = []
 training_labels = []
 
@@ -70,7 +79,7 @@ training_labels = label_encoder.fit_transform(training_labels)
 with open('labels.pkl', 'wb') as f:
     pickle.dump(label_encoder, f)
 
-# Convert training data into numpy arrays
+# Convert Training-Data data into numpy arrays
 training_sentences = np.array(training_sentences)
 training_labels = np.array(training_labels)
 

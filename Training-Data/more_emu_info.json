@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "application_deadline",
+      "patterns": [
+        "When is the application due?",
+        "What's the deadline to apply?",
+        "Application deadline?",
+        "How late can I apply?",
+        "Final date for applications?"
+      ],
+      "responses": [
+        "Application deadlines vary by program, but undergraduate applications are typically due by March 1 for the fall semester."
+      ]
+    },
+    {
+      "tag": "tuition_cost",
+      "patterns": [
+        "How much is tuition?",
+        "What does EMU cost?",
+        "Tuition fees?",
+        "What's the cost per semester?",
+        "How much do I have to pay?"
+      ],
+      "responses": [
+        "Undergraduate tuition is around $40,000 per year before financial aid. Visit emu.edu/financial-aid for details."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Do you offer scholarships?",
+        "Are there any scholarships?",
+        "Can I get a scholarship?",
+        "What kind of scholarships do you have?",
+        "Financial awards available?"
+      ],
+      "responses": [
+        "EMU offers merit-based and need-based scholarships. You can apply for them when you submit your application for admission."
+      ]
+    },
+    {
+      "tag": "dorms",
+      "patterns": [
+        "Do you have dorms?",
+        "Is housing available on campus?",
+        "Tell me about the dorms.",
+        "Where do students live?",
+        "Are the dorms co-ed?"
+      ],
+      "responses": [
+        "Yes, EMU has several residence halls with options for first-years and upperclassmen. Some are co-ed by floor."
+      ]
+    },
+    {
+      "tag": "meal_plans",
+      "patterns": [
+        "What kind of meal plans do you have?",
+        "Are meal plans required?",
+        "How does dining work?",
+        "Can I eat on campus?",
+        "Meal plan options?"
+      ],
+      "responses": [
+        "Meal plans are available and required for students living on campus. The cafeteria offers fresh, rotating menus daily."
+      ]
+    },
+    {
+      "tag": "wifi_and_tech",
+      "patterns": [
+        "Is there Wi-Fi on campus?",
+        "How good is the internet?",
+        "Do you have tech support?",
+        "What kind of tech services are offered?",
+        "Campus WiFi?"
+      ],
+      "responses": [
+        "EMU offers high-speed Wi-Fi across campus and a helpdesk for student tech support."
+      ]
+    },
+    {
+      "tag": "clubs_and_activities",
+      "patterns": [
+        "What clubs can I join?",
+        "Are there student organizations?",
+        "What activities are available?",
+        "Things to do on campus?",
+        "Fun stuff for students?"
+      ],
+      "responses": [
+        "EMU has dozens of student clubs, from Ultimate Frisbee to theatre, multicultural groups, and more!"
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "Can I study abroad?",
+        "Are there international programs?",
+        "Study abroad options?",
+        "Do you have cross-cultural trips?",
+        "Can I travel during college?"
+      ],
+      "responses": [
+        "Yes! EMU is known for its cross-cultural programs. Students often travel abroad as part of their curriculum."
+      ]
+    }
+  ]
+}

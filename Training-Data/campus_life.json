@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "housing",
+      "patterns": [
+        "What are the dorms like?",
+        "Where do students live on campus?",
+        "Can I choose my roommate?",
+        "Do freshmen have to live on campus?",
+        "Is on-campus housing available?",
+        "Are there single rooms?"
+      ],
+      "responses": [
+        "EMU offers a variety of on-campus housing options, including traditional dorms and suite-style living. Freshmen are generally required to live on campus.",
+        "You can request a roommate or be assigned one. Single rooms may be available based on demand and accommodations.",
+        "All residence halls are within walking distance of classes, and include amenities like Wi-Fi, lounges, and laundry facilities."
+      ]
+    },
+    {
+      "tag": "dining",
+      "patterns": [
+        "How is the food on campus?",
+        "What meal plans are available?",
+        "Are there vegetarian or vegan options?",
+        "Where can I eat on campus?",
+        "Is there a dining hall?",
+        "Do meal plans work at campus cafes?"
+      ],
+      "responses": [
+        "EMU has a full-service dining hall with multiple meal plan options. Vegetarian, vegan, and gluten-free choices are available daily.",
+        "Meal plans can be used at the main cafeteria and campus cafes. You can choose a plan that fits your schedule and budget.",
+        "The food is prepared fresh and includes rotating menus, themed meals, and special events throughout the semester."
+      ]
+    },
+    {
+      "tag": "student_organizations",
+      "patterns": [
+        "What clubs can I join?",
+        "Are there student organizations?",
+        "How can I get involved?",
+        "Is there a list of student groups?",
+        "Can I start my own club?",
+        "What are some popular student activities?"
+      ],
+      "responses": [
+        "EMU has a wide range of student organizations, from academic clubs to cultural groups and service organizations.",
+        "You can browse and join clubs through our student life portal. If you don’t see one you like, you can even start your own!",
+        "Getting involved is easy—club fairs and organization meetups happen regularly throughout the semester."
+      ]
+    },
+    {
+      "tag": "athletics_and_fitness",
+      "patterns": [
+        "What sports are offered?",
+        "Can I join intramural sports?",
+        "Do you have a gym?",
+        "What athletic programs are available?",
+        "Is there a fitness center on campus?",
+        "How can I participate in sports?"
+      ],
+      "responses": [
+        "EMU offers varsity sports, club teams, and intramural leagues. There's something for every skill level.",
+        "Our fitness center includes cardio machines, weights, and group classes. All students have free access.",
+        "Whether you want to compete or just stay active, you’ll find plenty of athletic and wellness opportunities here."
+      ]
+    },
+    {
+      "tag": "campus_events",
+      "patterns": [
+        "What events happen on campus?",
+        "Are there fun things to do?",
+        "Is there anything happening this weekend?",
+        "Does EMU host concerts or shows?",
+        "Are there campus traditions?",
+        "What’s student life like on weekends?"
+      ],
+      "responses": [
+        "EMU hosts concerts, speaker events, game nights, and cultural festivals throughout the year.",
+        "Weekends are lively with sports games, movie nights, and club-hosted activities. There's always something going on!",
+        "You can find a calendar of upcoming events on the campus life section of our website."
+      ]
+    },
+    {
+      "tag": "transportation_and_parking",
+      "patterns": [
+        "Can I have a car on campus?",
+        "Where do I park?",
+        "Is there public transportation?",
+        "Are bikes allowed?",
+        "Do students need parking permits?"
+      ],
+      "responses": [
+        "Yes, students can bring cars. A parking permit is required and can be purchased through campus security.",
+        "EMU provides designated parking lots for students, faculty, and visitors.",
+        "Bikes are welcome, and we also have bike racks and walking-friendly pathways across campus."
+      ]
+    },
+    {
+      "tag": "campus_safety",
+      "patterns": [
+        "Is EMU a safe campus?",
+        "What safety measures are in place?",
+        "How is campus security?",
+        "Are there emergency services?",
+        "Who do I call in an emergency?"
+      ],
+      "responses": [
+        "EMU is committed to campus safety. We have 24/7 campus security, emergency alert systems, and blue light phones across campus.",
+        "In case of emergency, contact campus security at (555) 123-4567 or use a blue light phone located throughout campus.",
+        "Students also have access to safety escorts and secure residence hall access."
+      ]
+    },
+    {
+      "tag": "residence_hall_policies",
+      "patterns": [
+        "Are there quiet hours?",
+        "Can I have guests in my dorm?",
+        "What are the rules in the residence halls?",
+        "Are pets allowed?",
+        "Do I have to clean my room?"
+      ],
+      "responses": [
+        "Residence halls observe quiet hours to support academic success. Guests are allowed but must follow the visitation policy.",
+        "Pets are not allowed, except for approved service animals. Students are responsible for keeping their rooms clean and tidy.",
+        "You’ll receive a full list of policies during move-in or during your housing orientation."
+      ]
+    },
+    {
+      "tag": "laundry_and_facilities",
+      "patterns": [
+        "Is there laundry on campus?",
+        "Do I have to pay for laundry?",
+        "Where do I wash clothes?",
+        "Is there a laundry room in the dorm?",
+        "Are there study rooms or lounges?"
+      ],
+      "responses": [
+        "Each residence hall has laundry facilities. The cost is included in your housing fee or paid via campus card.",
+        "There are study lounges, computer labs, and community spaces available in many dorms and academic buildings.",
+        "Most common areas are open late for student use and have Wi-Fi access."
+      ]
+    }
+  ]
+}

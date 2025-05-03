@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "housing_availability",
+      "patterns": [
+        "Are there any available dorms?",
+        "How can I apply for on-campus housing?",
+        "Is there space available in the dorms?",
+        "When can I apply for on-campus housing?"
+      ],
+      "responses": [
+        "You can apply for on-campus housing through the housing portal. Availability may vary, so it's recommended to apply early.",
+        "To apply for housing, visit the housing portal on the university's website. Make sure to check for availability during your desired semester."
+      ]
+    },
+    {
+      "tag": "housing_costs",
+      "patterns": [
+        "How much does on-campus housing cost?",
+        "What are the housing fees?",
+        "How much does a dorm room cost per semester?"
+      ],
+      "responses": [
+        "Housing costs vary depending on the dorm type and room selection. For detailed pricing, visit the housing fee page on the university website.",
+        "On-campus housing fees differ depending on the location and amenities of the dorm. Please check the housing portal for the most current rates."
+      ]
+    },
+    {
+      "tag": "housing_eligibility",
+      "patterns": [
+        "Who is eligible for on-campus housing?",
+        "Can freshmen apply for dorms?",
+        "Am I eligible to stay on campus as a graduate student?"
+      ],
+      "responses": [
+        "Typically, freshmen are guaranteed housing. Upperclassmen, graduate students, and transfer students can apply, but availability is limited.",
+        "Eligibility for on-campus housing depends on your student status and availability. Please check the housing portal for more information."
+      ]
+    },
+    {
+      "tag": "housing_deadlines",
+      "patterns": [
+        "When is the housing application deadline?",
+        "What is the deadline for applying for a dorm room?",
+        "When do I need to submit my housing application?"
+      ],
+      "responses": [
+        "The housing application deadline typically falls in the spring for the following academic year. Please visit the housing portal for specific dates.",
+        "Make sure to submit your housing application by the specified deadline to ensure the best chance for availability. Refer to the university website for deadline updates."
+      ]
+    },
+    {
+      "tag": "housing_move_in",
+      "patterns": [
+        "When can I move into my dorm?",
+        "What time can I check into my dorm?",
+        "When does move-in day start?"
+      ],
+      "responses": [
+        "Move-in day typically happens before the start of the semester. Check the housing portal for your specific dorm's move-in schedule.",
+        "The move-in day and time will be provided to you via email after your housing application has been processed."
+      ]
+    },
+    {
+      "tag": "housing_policies",
+      "patterns": [
+        "What are the rules for living in the dorms?",
+        "What are the policies for on-campus housing?",
+        "Can I have visitors in my dorm?"
+      ],
+      "responses": [
+        "Each dorm has its own set of rules and policies, including visitor hours and alcohol policies. Make sure to review the housing handbook for details.",
+        "Dorm policies vary by building. Be sure to check the specific policies for your assigned dorm once your housing application is approved."
+      ]
+    }
+  ]
+}

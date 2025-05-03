@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "available_programs",
+      "patterns": [
+        "What graduate programs does EMU offer?",
+        "Can you list the master's degrees?",
+        "Are there any doctoral programs?",
+        "Which graduate degrees are available?",
+        "What can I study at the graduate level?"
+      ],
+      "responses": [
+        "EMU offers graduate programs in fields like Nursing, Business Administration (MBA), Counseling, Peacebuilding, Education, and Seminary studies.",
+        "We also offer a Doctor of Nursing Practice (DNP) and other specialized certificates.",
+        "Visit emu.edu/graduate for a full list of available programs."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How do I apply to a graduate program?",
+        "What's the application process?",
+        "Where do I submit my graduate application?",
+        "Is there a fee to apply for grad school?",
+        "Can I apply online?"
+      ],
+      "responses": [
+        "You can apply online via the EMU website under the Graduate Admissions section.",
+        "Each program may have slightly different requirements, so be sure to check the specific program page.",
+        "There is usually a non-refundable application fee unless waived during promotions."
+      ]
+    },
+    {
+      "tag": "admissions_requirements",
+      "patterns": [
+        "What are the admission requirements?",
+        "Do I need a certain GPA?",
+        "Is the GRE required?",
+        "What documents do I need to submit?",
+        "Are there prerequisite courses?"
+      ],
+      "responses": [
+        "Requirements vary by program, but generally include transcripts, letters of recommendation, a personal statement, and a resume.",
+        "Some programs may require interviews or prior coursework. Most do not require GRE scores.",
+        "Check your program’s page for full details."
+      ]
+    },
+    {
+      "tag": "online_programs",
+      "patterns": [
+        "Can I study online?",
+        "Are there remote grad programs?",
+        "Do you offer hybrid or online courses?",
+        "Is the MBA program online?",
+        "Can I complete my degree remotely?"
+      ],
+      "responses": [
+        "Yes, several of EMU's graduate programs are available fully online or in hybrid formats.",
+        "The MBA, DNP, and some education programs offer flexible learning options to fit your schedule.",
+        "Visit the specific program page to see available delivery formats."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Is there financial aid for grad students?",
+        "Can I get a scholarship?",
+        "Do you offer assistantships or fellowships?",
+        "What are the tuition costs?",
+        "How do I pay for graduate school?"
+      ],
+      "responses": [
+        "Yes, graduate students can apply for financial aid, scholarships, and employer tuition reimbursement.",
+        "Each program may have scholarships or assistantships available—check with the program coordinator.",
+        "You can also complete the FAFSA to determine eligibility for federal loans."
+      ]
+    },
+    {
+      "tag": "international_students",
+      "patterns": [
+        "Can international students apply?",
+        "Do I need a visa to study at EMU?",
+        "Are grad programs open to international applicants?",
+        "What are the requirements for international students?"
+      ],
+      "responses": [
+        "Yes, EMU welcomes international graduate students.",
+        "You’ll need to provide TOEFL/IELTS scores, transcripts, and apply for a student visa (F-1).",
+        "Reach out to EMU’s international admissions office for personalized support."
+      ]
+    },
+    {
+      "tag": "program_duration",
+      "patterns": [
+        "How long does a graduate program take?",
+        "What’s the length of the MBA?",
+        "Can I finish my degree in one year?",
+        "Is the program full-time or part-time?",
+        "How many credits do I need?"
+      ],
+      "responses": [
+        "Program lengths vary—most master’s programs take 1.5 to 2 years full-time, but part-time options are available.",
+        "Some certificates or fast-track programs can be completed in under a year.",
+        "Credit requirements and pacing differ by program—check your program’s page for specifics."
+      ]
+    },
+    {
+      "tag": "graduate_student_life",
+      "patterns": [
+        "What’s student life like for grad students?",
+        "Are there events for grad students?",
+        "Do grad students live on campus?",
+        "Can I use campus facilities as a grad student?",
+        "Are there networking opportunities?"
+      ],
+      "responses": [
+        "Graduate students have access to all campus resources including the library, fitness center, and career services.",
+        "There are regular networking events, professional development workshops, and opportunities to engage with the community.",
+        "Some housing options may be available for graduate students, or you can live off-campus."
+      ]
+    },
+    {
+      "tag": "contact_grad_office",
+      "patterns": [
+        "How do I contact the graduate office?",
+        "Who do I talk to for questions about grad school?",
+        "Is there a number I can call about grad admissions?",
+        "Can I schedule a meeting with a grad advisor?"
+      ],
+      "responses": [
+        "You can contact the EMU Graduate Admissions Office via email at gradadmissions@emu.edu or call (540) 432-xxxxx.",
+        "Each program also has a dedicated coordinator—check the program webpage for direct contact info.",
+        "They’re happy to schedule a virtual or in-person meeting to answer your questions."
+      ]
+    }
+  ]
+}

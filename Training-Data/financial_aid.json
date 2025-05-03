@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "What scholarships do you offer?",
+        "Are there any scholarships available?",
+        "How can I apply for scholarships?",
+        "Do you offer merit-based scholarships?",
+        "Are there need-based scholarships?",
+        "How can I get a scholarship?"
+      ],
+      "responses": [
+        "EMU offers a range of scholarships, including merit-based, need-based, and program-specific scholarships. You can find more information and apply on our financial aid page.",
+        "We offer both merit-based and need-based scholarships. Please visit our scholarships page for more details on eligibility and how to apply.",
+        "Yes, we offer several scholarships. You can explore the scholarship options available through our financial aid office."
+      ]
+    },
+    {
+      "tag": "tuition_and_fees",
+      "patterns": [
+        "How much is tuition?",
+        "What are the tuition fees?",
+        "How much does it cost to attend EMU?",
+        "What are the fees for students?",
+        "What are the tuition rates for undergraduate students?",
+        "Is there a fee for international students?"
+      ],
+      "responses": [
+        "Tuition rates at EMU vary depending on your program of study. You can find detailed tuition rates and fees on the admissions or financial aid pages.",
+        "Undergraduate tuition is $X per year. For a full breakdown of fees, including books, housing, and other expenses, please visit our tuition and fees page.",
+        "There are additional fees for students who live on campus or participate in certain programs. Visit our financial aid page for more detailed information."
+      ]
+    },
+    {
+      "tag": "financial_aid_application",
+      "patterns": [
+        "How can I apply for financial aid?",
+        "Where do I submit my FAFSA?",
+        "What is the process to apply for financial aid?",
+        "When is the deadline to apply for financial aid?",
+        "Do I need to apply for financial aid every year?",
+        "Is there a deadline for FAFSA?"
+      ],
+      "responses": [
+        "To apply for financial aid, you will need to complete the Free Application for Federal Student Aid (FAFSA) form. You can submit it online through the FAFSA website.",
+        "The FAFSA deadline is typically in early March, but check our financial aid page for the most up-to-date deadlines.",
+        "Yes, you need to apply for financial aid every year. Be sure to submit your FAFSA by the deadlines to be considered for all types of aid."
+      ]
+    },
+    {
+      "tag": "loans",
+      "patterns": [
+        "Do you offer student loans?",
+        "How can I apply for student loans?",
+        "Are there federal loans available?",
+        "How do I qualify for student loans?",
+        "What is the interest rate on student loans?",
+        "Do you have loan options for graduate students?"
+      ],
+      "responses": [
+        "EMU offers federal student loans for eligible students. To apply, you must complete the FAFSA and meet the requirements for federal student aid.",
+        "Federal loans are available, including subsidized and unsubsidized loans. Visit our financial aid office for more details on loan options and application processes.",
+        "Graduate students are eligible for federal loans as well. You can apply by submitting the FAFSA form and checking your eligibility."
+      ]
+    },
+    {
+      "tag": "work_study",
+      "patterns": [
+        "What is work-study?",
+        "Can I get a work-study job?",
+        "How does work-study work?",
+        "Do you offer work-study programs?",
+        "Can I apply for work-study?"
+      ],
+      "responses": [
+        "Work-study is a federally funded program that provides part-time jobs for eligible students to help them pay for college. You must apply through FAFSA to be considered.",
+        "Yes, we offer work-study opportunities. You can apply for work-study when you submit your FAFSA, and our financial aid office will provide further instructions.",
+        "Work-study jobs are available on and off campus. The financial aid office will help you find a position if you are eligible for the program."
+      ]
+    },
+    {
+      "tag": "financial_aid_deadlines",
+      "patterns": [
+        "What is the financial aid deadline?",
+        "When do I need to submit my FAFSA by?",
+        "What are the deadlines for financial aid?",
+        "How do I find out the financial aid deadline?",
+        "When should I apply for financial aid?"
+      ],
+      "responses": [
+        "The FAFSA deadline is usually in March, but make sure to check our website for specific dates for each academic year.",
+        "Financial aid applications are due by the start of the semester, but it's important to submit your FAFSA as early as possible to ensure you're considered for all available funding.",
+        "Deadlines vary by program and financial aid type. Please refer to the financial aid calendar on our website for the exact deadlines."
+      ]
+    },
+    {
+      "tag": "out_of_state_financial_aid",
+      "patterns": [
+        "Is there financial aid for out-of-state students?",
+        "Do out-of-state students qualify for scholarships?",
+        "Are there special financial aid options for out-of-state students?",
+        "Can out-of-state students get the same financial aid as in-state students?"
+      ],
+      "responses": [
+        "Out-of-state students are eligible for many of the same financial aid options as in-state students, including scholarships, loans, and work-study programs.",
+        "Yes, out-of-state students can apply for scholarships and other financial aid options. Be sure to submit your FAFSA to be considered.",
+        "Out-of-state students may also qualify for state-based aid. Please check the financial aid website for more information on out-of-state opportunities."
+      ]
+    },
+    {
+      "tag": "renewing_financial_aid",
+      "patterns": [
+        "Do I need to renew my financial aid each year?",
+        "How do I renew my financial aid?",
+        "When should I renew my FAFSA?",
+        "Do I have to submit the FAFSA every year?"
+      ],
+      "responses": [
+        "Yes, you need to renew your financial aid each year by submitting a new FAFSA. Make sure to do so by the deadline to continue receiving aid.",
+        "You must submit your FAFSA each year to maintain your eligibility for financial aid. Be sure to complete it on time every year.",
+        "To renew your financial aid, simply update and resubmit your FAFSA form for each academic year."
+      ]
+    },
+    {
+      "tag": "financial_aid_contact",
+      "patterns": [
+        "How can I contact the financial aid office?",
+        "Who do I talk to for help with financial aid?",
+        "Where can I get assistance with my financial aid?",
+        "What is the financial aid office phone number?"
+      ],
+      "responses": [
+        "You can contact the financial aid office by calling (555) 123-4567 or emailing us at finaid@emu.edu. Visit our website for office hours and additional support.",
+        "For questions or concerns, reach out to the financial aid office at finaid@emu.edu. You can also find resources on our financial aid page.",
+        "Our financial aid office is available to assist you via phone at (555) 123-4567 or email. Feel free to contact us for help with your financial aid application."
+      ]
+    }
+  ]
+}

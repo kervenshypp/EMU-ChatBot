@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "international_admissions",
+      "patterns": [
+        "How do international students apply?",
+        "Admissions process for international students?",
+        "I'm from another country, how do I apply?",
+        "International student application",
+        "What are the admission requirements for international students?"
+      ],
+      "responses": [
+        "International students can apply online at [emu.edu/admissions/international](https://emu.edu/admissions/international). You'll need to submit transcripts, English proficiency scores, and a financial statement.",
+        "Visit EMU's international admissions page for application steps, deadlines, and required documents. They’ll guide you through the whole process."
+      ]
+    },
+    {
+      "tag": "visa_information",
+      "patterns": [
+        "How do I get a student visa?",
+        "F1 visa support",
+        "Do you issue I-20s?",
+        "Visa for EMU",
+        "International student visa process"
+      ],
+      "responses": [
+        "Once you're admitted, EMU will send your I-20 so you can apply for an F-1 student visa. Be sure to check your local U.S. embassy for next steps.",
+        "EMU helps international students get their I-20 after admission. Use that to schedule a visa appointment at the U.S. embassy or consulate."
+      ]
+    },
+    {
+      "tag": "international_orientation",
+      "patterns": [
+        "Is there an orientation for international students?",
+        "When does international orientation start?",
+        "Do international students get orientation?",
+        "Orientation for students from other countries",
+        "What support is there when I arrive?"
+      ],
+      "responses": [
+        "Yes! EMU offers a special orientation for international students before the semester starts. You'll get help with settling in, meeting others, and learning about campus.",
+        "International orientation is held prior to the regular semester and includes info on visas, academics, and student life. You’ll get details after you're admitted."
+      ]
+    },
+    {
+      "tag": "english_proficiency",
+      "patterns": [
+        "Do I need TOEFL?",
+        "What English tests are accepted?",
+        "English requirement for international students",
+        "Can I submit IELTS?",
+        "Language requirements?"
+      ],
+      "responses": [
+        "EMU accepts TOEFL, IELTS, and Duolingo English Test scores for international students. Minimum score requirements are listed at [emu.edu/admissions/international](https://emu.edu/admissions/international).",
+        "You’ll need to demonstrate English proficiency through one of the accepted tests—TOEFL, IELTS, or Duolingo. Check the website for score minimums."
+      ]
+    },
+    {
+      "tag": "international_support",
+      "patterns": [
+        "Who helps international students?",
+        "Is there an office for international students?",
+        "International student support?",
+        "Help for international students?",
+        "Resources for students from abroad"
+      ],
+      "responses": [
+        "EMU’s International Student Services Office supports students with visa questions, cultural adjustment, and more. You can reach them at international@emu.edu.",
+        "Yes, international students get support through the ISS Office, including visa advising, events, and one-on-one help. They’re located in Campus Center Room 215."
+      ]
+    },
+    {
+      "tag": "working_in_us",
+      "patterns": [
+        "Can I work on campus?",
+        "Are international students allowed to work?",
+        "What jobs can I do as an F1 student?",
+        "Part-time jobs for international students",
+        "Work restrictions on my visa"
+      ],
+      "responses": [
+        "International students on F-1 visas can work up to 20 hours per week on campus during the school year. Off-campus work requires authorization.",
+        "Yes, you can work on campus! For off-campus jobs like internships (CPT/OPT), you’ll need to speak with the International Student Advisor for permission."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "what_is_emu",
+      "patterns": [
+        "What is EMU?",
+        "Tell me about EMU",
+        "What does EMU stand for?",
+        "Is EMU a good school?",
+        "What's special about EMU?"
+      ],
+      "responses": [
+        "EMU stands for Eastern Mennonite University. It’s a private Christian university in Harrisonburg, Virginia, known for peacebuilding, community, and a global perspective.",
+        "EMU is a small university offering strong academics, service-learning, and a welcoming community grounded in faith and justice."
+      ]
+    },
+    {
+      "tag": "website_navigation_help",
+      "patterns": [
+        "I can't find what I'm looking for",
+        "Where do I find this on the site?",
+        "Help me navigate the website",
+        "I need help using the EMU website",
+        "Where's the info page?"
+      ],
+      "responses": [
+        "Let me know what you're looking for — I can help direct you to the right EMU webpage.",
+        "No worries! Just tell me what you need and I’ll point you in the right direction."
+      ]
+    },
+    {
+      "tag": "tuition_info",
+      "patterns": [
+        "How much does EMU cost?",
+        "What's tuition at EMU?",
+        "EMU tuition fees",
+        "Cost of attending EMU",
+        "How expensive is EMU?"
+      ],
+      "responses": [
+        "EMU’s undergraduate tuition is approximately $42,990 per year before financial aid. Visit [emu.edu/financial-aid/tuition](https://emu.edu/financial-aid/tuition) for a full cost breakdown.",
+        "The cost of attending EMU varies depending on housing and meal plans. You can find a detailed cost estimate at [emu.edu/cost](https://emu.edu/cost)."
+      ]
+    },
+    {
+      "tag": "is_emu_religious",
+      "patterns": [
+        "Is EMU a Christian school?",
+        "Do I have to be religious to go to EMU?",
+        "Is EMU affiliated with a church?",
+        "What religion is EMU?",
+        "EMU and religion"
+      ],
+      "responses": [
+        "EMU is a Christian university rooted in the Mennonite tradition, but students of all faiths and backgrounds are welcome!",
+        "While EMU is grounded in Christian values, you don't have to be religious to attend. The campus encourages respectful dialogue and spiritual exploration."
+      ]
+    },
+    {
+      "tag": "online_programs",
+      "patterns": [
+        "Does EMU have online classes?",
+        "Can I study online at EMU?",
+        "Are there online degrees?",
+        "EMU virtual programs",
+        "Remote learning at EMU"
+      ],
+      "responses": [
+        "Yes, EMU offers several online and hybrid programs, especially for graduate and adult students. Check them out at [emu.edu/online](https://emu.edu/online).",
+        "EMU has flexible online options for various degrees. Let me know what program you're interested in and I can guide you."
+      ]
+    },
+    {
+      "tag": "covid_policy",
+      "patterns": [
+        "What’s EMU’s COVID policy?",
+        "Does EMU require vaccines?",
+        "EMU COVID guidelines",
+        "Is EMU still doing online classes due to COVID?",
+        "How is EMU handling COVID?"
+      ],
+      "responses": [
+        "EMU follows CDC and local health guidelines. Visit [emu.edu/coronavirus](https://emu.edu/coronavirus) for the latest campus policies.",
+        "EMU no longer requires regular testing or vaccination but encourages safety and respect for others. See updates at [emu.edu/coronavirus](https://emu.edu/coronavirus)."
+      ]
+    },
+    {
+      "tag": "campus_size",
+      "patterns": [
+        "How big is EMU?",
+        "Is EMU a small school?",
+        "EMU student population",
+        "Size of the university",
+        "How many students at EMU?"
+      ],
+      "responses": [
+        "EMU has around 1,000 undergraduate students and a close-knit campus community.",
+        "It’s a small school with a student-to-faculty ratio of about 10:1 — which means more personal attention and support."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact EMU?",
+        "What's EMU’s phone number?",
+        "EMU contact details",
+        "Where can I reach EMU?",
+        "Email or phone for EMU"
+      ],
+      "responses": [
+        "You can call EMU at 540-432-4000 or visit [emu.edu/contact](https://emu.edu/contact) for more options.",
+        "Reach EMU at 1200 Park Road, Harrisonburg, VA, or email info@emu.edu for general inquiries."
+      ]
+    }
+  ]
+}

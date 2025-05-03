@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "counseling_services",
+      "patterns": [
+        "Is counseling available?",
+        "Where can I get mental health support?",
+        "Can I talk to someone about stress?",
+        "Does EMU offer therapy?",
+        "I need someone to talk to"
+      ],
+      "responses": [
+        "Yes, EMU offers free and confidential counseling services to all students. Visit the Counseling Services page at [emu.edu/counseling](https://emu.edu/counseling) to schedule an appointment.",
+        "You can access mental health support through EMU’s Counseling Services. They’re here to help with stress, anxiety, or personal issues."
+      ]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": [
+        "Is there tutoring?",
+        "I need help with my classes",
+        "Where can I get academic help?",
+        "Does EMU offer academic support?",
+        "Study support services?"
+      ],
+      "responses": [
+        "Yes, EMU offers tutoring, writing support, and study help through the Academic Success Center. Visit [emu.edu/academics/success](https://emu.edu/academics/success).",
+        "Tutoring and academic support are available! Reach out to the Academic Success Center to get connected."
+      ]
+    },
+    {
+      "tag": "disability_services",
+      "patterns": [
+        "I have a disability, can I get help?",
+        "Does EMU accommodate learning disabilities?",
+        "Accessibility support?",
+        "Are there disability services?",
+        "Help for students with disabilities?"
+      ],
+      "responses": [
+        "Yes, EMU provides disability support through the Director of Academic Access. Visit [emu.edu/academics/success](https://emu.edu/academics/success) to learn more and request accommodations.",
+        "Students with disabilities can receive academic accommodations and accessibility support. Contact the Academic Success Center for more info."
+      ]
+    },
+    {
+      "tag": "student_advocacy",
+      "patterns": [
+        "I need someone to help me with a problem",
+        "Where can I report an issue?",
+        "What if I'm having trouble with a professor?",
+        "Is there a student advocate?",
+        "Who helps students with concerns?"
+      ],
+      "responses": [
+        "If you’re facing an issue, you can speak with the Dean of Students or the Student Life office for help and advocacy.",
+        "Student Life and the Dean’s office are here to support you if you're having concerns or problems on campus."
+      ]
+    },
+    {
+      "tag": "crisis_support",
+      "patterns": [
+        "What if I have a crisis?",
+        "Who do I call in an emergency?",
+        "Crisis hotline?",
+        "I need urgent help",
+        "Mental health emergency help"
+      ],
+      "responses": [
+        "For immediate crises, call campus security or 911. For emotional crises, EMU Counseling Services offers support. After-hours resources are listed at [emu.edu/counseling](https://emu.edu/counseling).",
+        "In emergencies, call 911 or campus security. For emotional support, contact Counseling Services or a 24/7 crisis line."
+      ]
+    },
+    {
+      "tag": "student_support_contact",
+      "patterns": [
+        "How do I contact student support?",
+        "Who do I reach out to for help?",
+        "Is there a student support number?",
+        "Email for counseling or support?",
+        "Student help contact info?"
+      ],
+      "responses": [
+        "You can reach Student Life and support services through EMU’s main office or specific departments. For counseling, email counselingservices@emu.edu or call 540-432-4317.",
+        "Check the EMU website’s student support or counseling section for contact details, or visit the Student Life office in person."
+      ]
+    }
+  ]
+}
