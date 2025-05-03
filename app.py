@@ -33,6 +33,12 @@ for filename in files:
         current_data = json.load(json_data)
         intents["intents"].extend(current_data.get("intents", []))
 
+# Add Hermy-specific intents
+with open('Training-Data/hermy.json', 'r') as hermy_data:
+    hermy_intents = json.load(hermy_data)
+    intents["intents"].extend(hermy_intents.get("intents", []))
+
+
 # Load the trained model
 # This model is trained by TensorFlowand can predict intents based on inputs
 model = load_model('chatbot_model.h5')
